@@ -1,6 +1,6 @@
 import { CLIENTS } from '../Constants.js';
 import { DataError } from '../utils/Errors.js';
-import Client from './Client.js';
+import type Client from './Client.js';
 
 /**
  * A `Sender` object holds information about a sender.
@@ -16,6 +16,8 @@ export default class Sender {
     name: string;
     thumbnail: string;
   };
+  obfuscatedGaiaId: string | null;
+  ownerObfuscatedGaiaId: string | null;
 
   /** @internal */
   constructor(data: any) {
@@ -33,9 +35,11 @@ export default class Sender {
     try {
       this.device = data.device ? JSON.parse(data.device) : {};
     }
-    catch (error) {
+    catch (_error: unknown) {
       this.device = {};
     }
+    this.obfuscatedGaiaId = data.obfuscatedGaiaId || null;
+    this.ownerObfuscatedGaiaId = data.ownerObfuscatedGaiaId || null;
   }
 
   /**

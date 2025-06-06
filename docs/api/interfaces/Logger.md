@@ -1,32 +1,20 @@
+[**yt-cast-receiver**](../README.md) • **Docs**
+
+***
+
 [yt-cast-receiver](../README.md) / Logger
 
 # Interface: Logger
 
-## Implemented by
-
-- [`DefaultLogger`](../classes/DefaultLogger.md)
-
-## Table of contents
-
-### Methods
-
-- [debug](Logger.md#debug)
-- [error](Logger.md#error)
-- [info](Logger.md#info)
-- [setLevel](Logger.md#setlevel)
-- [warn](Logger.md#warn)
-
 ## Methods
 
-### debug
+### debug()
 
-▸ **debug**(`...msg`): `void`
+> **debug**(...`msg`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `...msg` | `any`[] |
+• ...**msg**: `any`[]
 
 #### Returns
 
@@ -34,19 +22,17 @@
 
 #### Defined in
 
-[src/lib/utils/Logger.ts:13](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Logger.ts#L13)
+[src/lib/utils/Logger.ts:13](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Logger.ts#L13)
 
-___
+***
 
-### error
+### error()
 
-▸ **error**(`...msg`): `void`
+> **error**(...`msg`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `...msg` | `any`[] |
+• ...**msg**: `any`[]
 
 #### Returns
 
@@ -54,19 +40,17 @@ ___
 
 #### Defined in
 
-[src/lib/utils/Logger.ts:10](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Logger.ts#L10)
+[src/lib/utils/Logger.ts:10](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Logger.ts#L10)
 
-___
+***
 
-### info
+### info()
 
-▸ **info**(`...msg`): `void`
+> **info**(...`msg`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `...msg` | `any`[] |
+• ...**msg**: `any`[]
 
 #### Returns
 
@@ -74,19 +58,17 @@ ___
 
 #### Defined in
 
-[src/lib/utils/Logger.ts:12](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Logger.ts#L12)
+[src/lib/utils/Logger.ts:12](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Logger.ts#L12)
 
-___
+***
 
-### setLevel
+### setLevel()
 
-▸ **setLevel**(`value`): `void`
+> **setLevel**(`value`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `value` | [`LogLevel`](../README.md#loglevel) |
+• **value**: [`LogLevel`](../type-aliases/LogLevel.md)
 
 #### Returns
 
@@ -94,19 +76,17 @@ ___
 
 #### Defined in
 
-[src/lib/utils/Logger.ts:14](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Logger.ts#L14)
+[src/lib/utils/Logger.ts:14](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Logger.ts#L14)
 
-___
+***
 
-### warn
+### warn()
 
-▸ **warn**(`...msg`): `void`
+> **warn**(...`msg`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `...msg` | `any`[] |
+• ...**msg**: `any`[]
 
 #### Returns
 
@@ -114,4 +94,4 @@ ___
 
 #### Defined in
 
-[src/lib/utils/Logger.ts:11](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Logger.ts#L11)
+[src/lib/utils/Logger.ts:11](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Logger.ts#L11)

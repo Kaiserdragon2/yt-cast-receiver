@@ -1,74 +1,67 @@
+[**yt-cast-receiver**](../README.md) • **Docs**
+
+***
+
 [yt-cast-receiver](../README.md) / PlayerState
 
 # Interface: PlayerState
-
-## Table of contents
-
-### Properties
-
-- [cpn](PlayerState.md#cpn)
-- [duration](PlayerState.md#duration)
-- [position](PlayerState.md#position)
-- [queue](PlayerState.md#queue)
-- [status](PlayerState.md#status)
-- [volume](PlayerState.md#volume)
 
 ## Properties
 
 ### cpn
 
-• **cpn**: `string`
+> **cpn**: `string`
 
 #### Defined in
 
-[src/lib/Player.ts:25](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/Player.ts#L25)
+[src/lib/Player.ts:25](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/Player.ts#L25)
 
-___
+***
 
 ### duration
 
-• **duration**: `number`
+> **duration**: `number`
 
 #### Defined in
 
-[src/lib/Player.ts:23](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/Player.ts#L23)
+[src/lib/Player.ts:23](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/Player.ts#L23)
 
-___
+***
 
 ### position
 
-• **position**: `number`
+> **position**: `number`
 
 #### Defined in
 
-[src/lib/Player.ts:22](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/Player.ts#L22)
+[src/lib/Player.ts:22](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/Player.ts#L22)
 
-___
+***
 
 ### queue
 
-• **queue**: [`PlaylistState`](PlaylistState.md)
+> **queue**: [`PlaylistState`](PlaylistState.md)
 
 #### Defined in
 
-[src/lib/Player.ts:21](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/Player.ts#L21)
+[src/lib/Player.ts:21](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/Player.ts#L21)
 
-___
+***
 
 ### status
 
-• **status**: [`PlayerStatus`](../README.md#playerstatus)
+> **status**: [`PlayerStatus`](../type-aliases/PlayerStatus.md)
 
 #### Defined in
 
-[src/lib/Player.ts:20](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/Player.ts#L20)
+[src/lib/Player.ts:20](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/Player.ts#L20)
 
-___
+***
 
 ### volume
 
-• **volume**: [`Volume`](Volume.md)
+> **volume**: [`Volume`](Volume.md)
 
 #### Defined in
 
-[src/lib/Player.ts:24](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/Player.ts#L24)
+[src/lib/Player.ts:24](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/Player.ts#L24)

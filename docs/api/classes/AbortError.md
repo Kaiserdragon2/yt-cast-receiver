@@ -1,82 +1,72 @@
+[**yt-cast-receiver**](../README.md) • **Docs**
+
+***
+
 [yt-cast-receiver](../README.md) / AbortError
 
 # Class: AbortError
 
-## Hierarchy
+## Extends
 
 - [`YouTubeCastReceiverError`](YouTubeCastReceiverError.md)
 
-  ↳ **`AbortError`**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](AbortError.md#constructor)
-
-### Properties
-
-- [cause](AbortError.md#cause)
-- [info](AbortError.md#info)
-
-### Methods
-
-- [getCauses](AbortError.md#getcauses)
-
 ## Constructors
 
-### constructor
+### new AbortError()
 
-• **new AbortError**(`message`, `url`)
+> **new AbortError**(`message`, `url`): [`AbortError`](AbortError.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `message` | `string` |
-| `url` | `string` |
+• **message**: `string`
+
+• **url**: `string`
+
+#### Returns
+
+[`AbortError`](AbortError.md)
 
 #### Overrides
 
-[YouTubeCastReceiverError](YouTubeCastReceiverError.md).[constructor](YouTubeCastReceiverError.md#constructor)
+[`YouTubeCastReceiverError`](YouTubeCastReceiverError.md).[`constructor`](YouTubeCastReceiverError.md#constructors)
 
 #### Defined in
 
-[src/lib/utils/Errors.ts:36](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Errors.ts#L36)
+[src/lib/utils/Errors.ts:36](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Errors.ts#L36)
 
 ## Properties
 
-### cause
+### cause?
 
-• `Optional` **cause**: `any`
-
-#### Inherited from
-
-[YouTubeCastReceiverError](YouTubeCastReceiverError.md).[cause](YouTubeCastReceiverError.md#cause)
-
-#### Defined in
-
-[src/lib/utils/Errors.ts:3](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Errors.ts#L3)
-
-___
-
-### info
-
-• `Optional` **info**: `Record`<`string`, `any`\>
+> `optional` **cause**: `any`
 
 #### Inherited from
 
-[YouTubeCastReceiverError](YouTubeCastReceiverError.md).[info](YouTubeCastReceiverError.md#info)
+[`YouTubeCastReceiverError`](YouTubeCastReceiverError.md).[`cause`](YouTubeCastReceiverError.md#cause)
 
 #### Defined in
 
-[src/lib/utils/Errors.ts:4](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Errors.ts#L4)
+[src/lib/utils/Errors.ts:3](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Errors.ts#L3)
+
+***
+
+### info?
+
+> `optional` **info**: `Record`\<`string`, `any`\>
+
+#### Inherited from
+
+[`YouTubeCastReceiverError`](YouTubeCastReceiverError.md).[`info`](YouTubeCastReceiverError.md#info)
+
+#### Defined in
+
+[src/lib/utils/Errors.ts:4](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Errors.ts#L4)
 
 ## Methods
 
-### getCauses
+### getCauses()
 
-▸ **getCauses**(): `any`[]
+> **getCauses**(): `any`[]
 
 #### Returns
 
@@ -84,8 +74,8 @@ ___
 
 #### Inherited from
 
-[YouTubeCastReceiverError](YouTubeCastReceiverError.md).[getCauses](YouTubeCastReceiverError.md#getcauses)
+[`YouTubeCastReceiverError`](YouTubeCastReceiverError.md).[`getCauses`](YouTubeCastReceiverError.md#getcauses)
 
 #### Defined in
 
-[src/lib/utils/Errors.ts:17](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/utils/Errors.ts#L17)
+[src/lib/utils/Errors.ts:17](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/utils/Errors.ts#L17)

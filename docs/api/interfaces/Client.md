@@ -1,41 +1,37 @@
+[**yt-cast-receiver**](../README.md) • **Docs**
+
+***
+
 [yt-cast-receiver](../README.md) / Client
 
 # Interface: Client
-
-## Table of contents
-
-### Properties
-
-- [key](Client.md#key)
-- [name](Client.md#name)
-- [theme](Client.md#theme)
 
 ## Properties
 
 ### key
 
-• **key**: [`ClientKey`](../README.md#clientkey)
+> **key**: [`ClientKey`](../type-aliases/ClientKey.md)
 
 #### Defined in
 
-[src/lib/app/Client.ts:4](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/app/Client.ts#L4)
+[src/lib/app/Client.ts:4](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/app/Client.ts#L4)
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[src/lib/app/Client.ts:6](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/app/Client.ts#L6)
+[src/lib/app/Client.ts:6](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/app/Client.ts#L6)
 
-___
+***
 
 ### theme
 
-• **theme**: `string`
+> **theme**: `string`
 
 #### Defined in
 
-[src/lib/app/Client.ts:5](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/app/Client.ts#L5)
+[src/lib/app/Client.ts:5](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/app/Client.ts#L5)

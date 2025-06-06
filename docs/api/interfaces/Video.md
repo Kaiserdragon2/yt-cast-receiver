@@ -1,41 +1,55 @@
+[**yt-cast-receiver**](../README.md) • **Docs**
+
+***
+
 [yt-cast-receiver](../README.md) / Video
 
 # Interface: Video
-
-## Table of contents
-
-### Properties
-
-- [client](Video.md#client)
-- [context](Video.md#context)
-- [id](Video.md#id)
 
 ## Properties
 
 ### client
 
-• **client**: [`Client`](Client.md)
+> **client**: [`Client`](Client.md)
 
 #### Defined in
 
-[src/lib/app/Video.ts:5](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/app/Video.ts#L5)
+[src/lib/app/Video.ts:5](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/app/Video.ts#L5)
 
-___
+***
 
-### context
+### context?
 
-• `Optional` **context**: { `ctt?`: `string` ; `index?`: `number` ; `params?`: `string` ; `playlistId?`: `string`  } & `Record`<`string`, `any`\>
+> `optional` **context**: `object` & `Record`\<`string`, `any`\>
+
+#### Type declaration
+
+##### ctt?
+
+> `optional` **ctt**: `string`
+
+##### index?
+
+> `optional` **index**: `number`
+
+##### params?
+
+> `optional` **params**: `string`
+
+##### playlistId?
+
+> `optional` **playlistId**: `string`
 
 #### Defined in
 
-[src/lib/app/Video.ts:7](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/app/Video.ts#L7)
+[src/lib/app/Video.ts:7](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/app/Video.ts#L7)
 
-___
+***
 
 ### id
 
-• **id**: `string`
+> **id**: `string`
 
 #### Defined in
 
-[src/lib/app/Video.ts:4](https://github.com/patrickkfkan/yt-cast-receiver/blob/630ac05/src/lib/app/Video.ts#L4)
+[src/lib/app/Video.ts:4](https://github.com/patrickkfkan/yt-cast-receiver/blob/bd89142d74e28aee740c2fbc2ea3a853e286e8db/src/lib/app/Video.ts#L4)
