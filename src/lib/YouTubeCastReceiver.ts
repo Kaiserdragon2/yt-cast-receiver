@@ -84,7 +84,7 @@ export default class YouTubeCastReceiver extends EventEmitter {
 
     const appOptions: AppOptions = {
       ...(options.app || {}),
-      screenName: options.device?.name,
+      screenName,
       brand: options.device?.brand,
       model: options.device?.model,
       dataStore,
@@ -93,7 +93,7 @@ export default class YouTubeCastReceiver extends EventEmitter {
 
     const dialOptions: DialOptions = {
       ...(options.dial || {}),
-      friendlyName,
+      friendlyName: options.device?.name,
       manufacturer: options.device?.brand,
       modelName: options.device?.model,
       logger: this.#logger
