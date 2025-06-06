@@ -84,7 +84,7 @@ export default class YouTubeCastReceiver extends EventEmitter {
 
     const appOptions: AppOptions = {
       ...(options.app || {}),
-      screenName,
+      screenName: options.device?.name,
       brand: options.device?.brand,
       model: options.device?.model,
       dataStore,
